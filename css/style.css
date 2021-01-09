@@ -1,0 +1,238 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+body {
+    margin: 0;
+}
+
+header {
+position: relative;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background-color: #212121;
+    z-index: 1;
+    } 
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 70px;
+    margin: 0;
+    list-style-type: none;
+}
+
+.menu .menu_link {
+    font-size: 15px;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.menu .menu_item {
+    border-right: 2px dotted black;
+    padding-right: 28px;
+}
+
+.subheader {
+    margin-top: 50px;
+    position: absolute;
+    width: 100%;
+    height: 84px;
+    background-color: rgba(0, 0, 0, .6);
+}
+
+.subheader .subheader_logo {
+    display: block;
+    min-width: 100%;
+    margin-top: 16px;
+}
+
+.subheader .subheader_official {
+    margin-top: 6px;
+    opacity: 0.5;
+    font-size: 13px;
+    font-weight: 100;
+    color:#ffffff;
+}
+
+.subheader .subheader_call {
+    margin-top: 19px;
+    font-size: 12px;
+    font-weight: 300;
+    text-align: right;
+    color: #ffffff;
+}
+.subheader .subheader_phone {
+    display: block;
+    margin-top: 8px;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 12px;
+    text-align: right;     
+    color: #ffffff;
+}
+
+.subheader .subheader_btn {
+    margin-top: 19px;
+    width: 172px;
+    height: 46px;
+    box-shadow: inset 0px -3px 0 0 rgba(0, 0, 0, 0.12);
+    border: none;
+    border-radius: 4px;
+    background-image: linear-gradient(to top, #1eacc7, #4ce2ff);
+    text-shadow: 0.7px 0.7px 0 rgba(0, 0, 0, 0.21);
+    font-weight: 400;
+    font-size: 14px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.promo {
+    min-height: 800px;
+    background: url("..//img/main_bg.jpg") center center/cover  no-repeat ;
+    padding: 150px 0 135px 0;
+}
+
+.promo .promo_header {
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+    line-height: 60px  ;
+    margin: 0;
+    text-align: center;
+}
+
+.promo .promo_sabheader {
+    margin-top: 22px;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+    line-height: 36px;
+    text-align: center;
+}
+
+.promo .promo_descr {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #ffffff; 
+    text-align: center;
+    margin-top: 23px;
+}
+
+.promo .promor_btn {
+    display: block;
+    margin: 118px auto 0 auto;
+    width: 259px;
+    height: 63px;
+    box-shadow: inset 0px -4px 0 0 rgba(0, 0, 0, 0.12);
+    border: none;
+    border-radius: 4px;
+    background-image: linear-gradient(to top, #1eacc7, #4ce2ff);
+    text-shadow: 0.7px 0.7px 0 rgba(0, 0, 0, 0.21);
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 3.78;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+.advantages {
+min-height:900px;
+}
+
+.advantages .row {
+    margin-right: 12px;
+}
+
+.label {
+    width: 112px;
+    height: 24px;
+    margin: 71px 514px 0 526px;
+    background-color: #000000;
+    font-family: Roboto;
+    font-size: 11px;
+    font-weight: 100;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 24px;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+
+.title {
+    margin-top: 38px;
+    font-size: 38px;
+    font-weight: bold;
+    line-height: 38px;
+    text-align: center;
+    color: #222222;
+    text-transform: uppercase;
+}
+
+.advantages .block {
+    margin-top: 40px;
+    display: flex;
+}
+
+.advantages .img_one{
+    margin: 20px 0 0 35px;
+    width: 113px;
+    height: 113px;
+}
+
+.advantages .advantages_text {
+    padding: 0 0 0 26px;
+    width: 341px;
+}
+
+.advantages .advantages_text_one {
+    font-size: 17px;
+    font-weight: normal;
+    color: #1eacc7;
+}
+
+.advantages .advantages_text_two {
+    color: #202020;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+    text-align: justify;
+    margin-top: 18px;
+}
+
+.advantages .icon_radius {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;  
+    width: 113px;
+    height: 113px;
+    border-radius: 100%;
+    background-color: #1eacc7;
+    margin: 15px 0 0 35px;
+}
+
+.advantages .icon_block {
+text-align: center;
+}
+
+.subtitle {
+    width: 795px;
+    height: 17px;
+    margin: 19px 151px 32px 149px;
+    font-family: Roboto;
+    font-size: 17px;
+    line-height: 17px;
+    letter-spacing: normal;
+    text-align: center;
+    color: #222222;
+}
